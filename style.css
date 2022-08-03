@@ -60,7 +60,7 @@ div.header h1:hover {
 div.bg1 {
     background-color: var(--azul);
     padding: 50px;
-    min-width: 375px;
+    min-width: 500px;
 }
 
 
@@ -116,7 +116,7 @@ main article p {
 div.bg2 {
     background-color: var(--verde);
     padding: 50px;
-    min-width: 375px;
+    min-width: 500px;
 }
 
 main.main2 {
@@ -132,7 +132,7 @@ main.main2 {
 div.bg3 {
     background-color: var(--amarelo);
     padding: 50px;
-    min-width: 375px;
+    min-width: 500px;
 }
 
 main.main3 {
@@ -149,6 +149,7 @@ main.main3 {
 div.bg4 {
     background-color: var(--vermelho);
     padding: 50px;
+    min-width: 500px;
 }
 
 main.main4 {
