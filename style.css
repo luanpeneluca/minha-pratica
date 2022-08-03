@@ -32,7 +32,7 @@ body {
 
 header {
     display: block;
-    min-width: 300px;
+    min-width: 375px;
 }
 
 div.header {
@@ -60,11 +60,11 @@ div.header h1:hover {
 div.bg1 {
     background-color: var(--azul);
     padding: 50px;
-    min-width: 300px;
+    min-width: 375px;
 }
 
 main {
-    min-width: 300px;
+    min-width: 375px;
     max-width: 500px;
     display: block;
     margin: auto;
