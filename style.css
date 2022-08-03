@@ -11,8 +11,7 @@
 
 body {
     height: 100%;
-    width: 100%;
-    min-width: 375px;
+    max-width: 100%;
     display: block;
 }
 
@@ -33,12 +32,14 @@ body {
 
 header {
     display: block;
+    width: 100%;
 }
 
 div.header {
     background-color: var(--cor0);
-    min-width: 100%;
     height: 163px;
+    max-width: 100%;
+    min-width: 360px;
 }
 
 div.header h1 {
@@ -58,14 +59,15 @@ div.header h1:hover {
 }
 
 div.bg1 {
+    display: block;
     background-color: var(--azul);
     padding: 50px;
-    min-width: 500px;
+    min-width: 255px;
 }
 
 
 main.main1 {
-    min-width: 300px;
+    min-width: 240px;
     max-width: 500px;
     display: block;
     margin: 0px auto;
@@ -114,13 +116,14 @@ main article p {
 } 
 
 div.bg2 {
+    display: block;
     background-color: var(--verde);
     padding: 50px;
-    min-width: 500px;
+    min-width: 255px;
 }
 
 main.main2 {
-    min-width: 300px;
+    min-width: 240px;
     max-width: 500px;
     display: block;
     margin: 0px auto;
@@ -130,13 +133,14 @@ main.main2 {
 }
 
 div.bg3 {
+    display: block;
     background-color: var(--amarelo);
     padding: 50px;
-    min-width: 500px;
+    min-width: 255px;
 }
 
 main.main3 {
-    min-width: 300px;
+    min-width: 240px;
     max-width: 500px;
     display: block;
     margin: 0px auto;
@@ -147,13 +151,14 @@ main.main3 {
 }
 
 div.bg4 {
+    display: block;
     background-color: var(--vermelho);
     padding: 50px;
-    min-width: 500px;
+    min-width: 255px;
 }
 
 main.main4 {
-    min-width: 300px;
+    min-width: 240px;
     max-width: 500px;
     display: block;
     margin: 0px auto;
