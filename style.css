@@ -1,0 +1,163 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'futura';
+    src: url(font/FuturaStdBook.otf);
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+:root {
+    --cor0: #5DA8FC;
+    --cor1: #85b5ec;
+    --cor2: #59c959;
+    --cor3: #dbab6d;
+    --cor4: #e68080;
+    --azul: #ABE4FF;
+    --verde: #99FF99;    
+    --amarelo: #FFDAAB;
+    --vermelho: #FFABAB;
+    --rosa: #D9ABFF;
+    --futura: 'futura';
+    --arial: Arial, Helvetica, Sans-serif;
+}
+
+header {
+    display: block;
+    min-width: 300px;
+}
+
+div.header {
+    background-color: var(--cor0);
+    min-width: 100%;
+    height: 163px;
+}
+
+div.header h1 {
+    font-family: var(--futura);
+    background-color: var(--azul);
+    color: var(--cor0);
+    text-align: center;
+    width: 300px;
+    padding: 61px 0px;
+    margin: 0px auto;
+}
+
+div.header h1:hover {
+    background-color: var(--cor0);
+    color: white;
+    transition-duration: 0.3s;
+}
+
+div.bg1 {
+    background-color: var(--azul);
+    padding: 50px;
+}
+
+main {
+    min-width: 300px;
+    max-width: 500px;
+    display: block;
+    margin: auto;
+}
+
+main.main1 {
+    margin: 0px auto;
+    background-color: var(--cor1);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+main article h1 {
+    text-align: center;
+    font-family: var(--futura);
+    font-size: 50px;
+    color: black;
+    margin-bottom: 15px;
+}
+
+main article p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.imgs {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    margin: 20px auto;
+}
+
+.box {
+    display: inline-block;
+    padding-left: 25px;
+    margin: auto;
+    width: 200px;
+}
+
+.imgs > .box > span > a {
+    color: black;
+    text-decoration: none;
+}
+
+.imgs > .box > span > a:hover {
+    color: #394d64;
+    text-decoration: underline;
+} 
+
+div.bg2 {
+    background-color: var(--verde);
+    padding: 50px;
+}
+
+main.main2 {
+    margin: 0px auto;
+    background-color: var(--cor2);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+div.bg3 {
+    background-color: var(--amarelo);
+    padding: 50px;
+}
+
+main.main3 {
+    margin: 0px auto;
+    background-color: var(--cor3);
+    padding: 30px;
+    border-radius: 7px;
+
+}
+
+div.bg4 {
+    background-color: var(--vermelho);
+    padding: 50px;
+}
+
+main.main4 {
+    margin: 0px auto;
+    background-color: var(--cor4);
+    padding: 30px;
+    border-radius: 7px;
+}
+
+footer {
+    position: absolute;
+    bottom: -10;
+    width: 100%;
+    background-color: var(--cor0);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    color: white;
+    padding: 7px 0px;
+}
