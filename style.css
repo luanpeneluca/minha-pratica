@@ -63,14 +63,11 @@ div.bg1 {
     min-width: 375px;
 }
 
-main {
+
+main.main1 {
     min-width: 300px;
     max-width: 500px;
     display: block;
-    margin: auto;
-}
-
-main.main1 {
     margin: 0px auto;
     background-color: var(--cor1);
     padding: 30px;
@@ -78,6 +75,7 @@ main.main1 {
 }
 
 main article h1 {
+    display: block;
     text-align: center;
     font-family: var(--futura);
     font-size: 50px;
@@ -86,6 +84,7 @@ main article h1 {
 }
 
 main article p {
+    display: block;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -117,9 +116,13 @@ main article p {
 div.bg2 {
     background-color: var(--verde);
     padding: 50px;
+    min-width: 375px;
 }
 
 main.main2 {
+    min-width: 300px;
+    max-width: 500px;
+    display: block;
     margin: 0px auto;
     background-color: var(--cor2);
     padding: 30px;
@@ -129,9 +132,13 @@ main.main2 {
 div.bg3 {
     background-color: var(--amarelo);
     padding: 50px;
+    min-width: 375px;
 }
 
 main.main3 {
+    min-width: 300px;
+    max-width: 500px;
+    display: block;
     margin: 0px auto;
     background-color: var(--cor3);
     padding: 30px;
@@ -145,6 +152,9 @@ div.bg4 {
 }
 
 main.main4 {
+    min-width: 300px;
+    max-width: 500px;
+    display: block;
     margin: 0px auto;
     background-color: var(--cor4);
     padding: 30px;
