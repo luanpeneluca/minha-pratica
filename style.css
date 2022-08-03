@@ -12,7 +12,6 @@
 body {
     height: 100%;
     max-width: 100%;
-    display: block;
 }
 
 :root {
@@ -39,7 +38,7 @@ div.header {
     background-color: var(--cor0);
     height: 163px;
     max-width: 100%;
-    min-width: 360px;
+    min-width: 375px;
 }
 
 div.header h1 {
@@ -59,10 +58,9 @@ div.header h1:hover {
 }
 
 div.bg1 {
-    display: block;
     background-color: var(--azul);
     padding: 50px;
-    min-width: 255px;
+    min-width: 275px;
 }
 
 
@@ -116,10 +114,9 @@ main article p {
 } 
 
 div.bg2 {
-    display: block;
     background-color: var(--verde);
     padding: 50px;
-    min-width: 255px;
+    min-width: 275px;
 }
 
 main.main2 {
@@ -133,10 +130,9 @@ main.main2 {
 }
 
 div.bg3 {
-    display: block;
     background-color: var(--amarelo);
     padding: 50px;
-    min-width: 255px;
+    min-width: 275px;
 }
 
 main.main3 {
@@ -151,10 +147,9 @@ main.main3 {
 }
 
 div.bg4 {
-    display: block;
     background-color: var(--vermelho);
     padding: 50px;
-    min-width: 255px;
+    min-width: 275px;
 }
 
 main.main4 {
